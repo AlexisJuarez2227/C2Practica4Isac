@@ -8,12 +8,8 @@ public class Principal {
     private static Scanner entrada=new Scanner(System.in);
     public static void main(String[] args) {
         String opcion;
-        do {
-            System.out.println("Creando circulo");
+            System.out.println("Circulo en progreso");
             LecturaDato leerDato = new LecturaDato();
             leerDato.lecturaDatos();
-            System.out.println("Quiere ingresar otro circulo?");
-            opcion=entrada.next();
-        }while (opcion.equals("si")||opcion.equals("Si"));
     }
 }
